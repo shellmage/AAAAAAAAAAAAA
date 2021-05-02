@@ -31,7 +31,9 @@ First, change the "FB_EMAIL" and "FB_PASSWORD" in the login.js file to your emai
 node login.js
 ```
 This generates the appstate.json file that you will use to login without your plain text credentials, 
-Once you complete that step, delete your email and password from the login.js file and run app.js:
+Once you complete that step, delete your email and password from the login.js file
+(ps: please don't upload your plain-text passwords to the internet!)<br>
+then run:
 ```
 node app.js
 ```
