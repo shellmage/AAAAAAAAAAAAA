@@ -1,18 +1,19 @@
 {
   "name": "AAAAAAAAAAAAA",
   "version": "1.0.0",
-  "description": "A messenger-chat-bot that supports the '@everyone' discord-like feature",
+  "description": "A facebook messenger chat-bot that supports the '@everyone' discord-like feature",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shellcxd3/AAAAAAAAAAAAA.git"
+    "url": "git+https://github.com/shellmage/AAAAAAAAAAAAA.git"
   },
-  "author": "shellcxd3",
+  "author": "shellmage",
   "license": "",
   "dependencies": {
-    "facebook-chat-api": "github:Schmavery/facebook-chat-api"
+    "facebook-chat-api": "github:Schmavery/facebook-chat-api",
+    "puppeteer": "^9.1.1"
   }
 }
