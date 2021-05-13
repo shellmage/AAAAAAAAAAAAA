@@ -3,11 +3,13 @@ const fs = require("fs");
 
 login({appState: JSON.parse(fs.readFileSync('appstate.json', 'utf8'))}, (err, api) =>
 {
-        api.setOptions(
-        {
-                selfListen: true,
-                logLevel: 'warn'
-        });
+	fs.writeFileSync("appstate.json", JSON.stringify(api.getAppState()));
+
+	api.setOptions(
+	{
+		selfListen: true,
+		logLevel: 'warn'
+	});
 
 	api.listenMqtt((err, msgReceived) =>
 	{
