@@ -1,8 +1,8 @@
 const fs = require("fs");
 const puppeteer = require("puppeteer");
 
-const email = 'Email'
-const password = 'PASSWORD'
+const email = 'Email';
+const password = 'PASSWORD';
 
 (async () => {
 	const browser = await puppeteer.launch();
